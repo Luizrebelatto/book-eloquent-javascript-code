@@ -30,3 +30,11 @@ function showNumberWhileCount(){
     console.log(`result: ${result} - count: ${count}`)
 }
 
+// force you to enter a name
+function showNameDo(){
+    let name;
+    do {
+        name = prompt("what is your name?")
+    } while(!name)
+    console.log(name)
+}
