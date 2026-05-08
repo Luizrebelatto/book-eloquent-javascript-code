@@ -9,6 +9,8 @@ function showNumber0To12(){
     console.log(12)
 }
 
+// when you use the structure while, the condition is executed before
+
 function showNumbersWhile(){
     let number = 0;
     while(number <= 12){
@@ -16,3 +18,15 @@ function showNumbersWhile(){
         number += 2
     }
 }
+
+function showNumberWhileCount(){
+    let result = 1;
+    let count = 0;
+    
+    while(count <= 10){
+        result *= 2;
+        count += 1;
+    }
+    console.log(`result: ${result} - count: ${count}`)
+}
+
